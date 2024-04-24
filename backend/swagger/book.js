@@ -16,11 +16,11 @@
 *       - name: publication_year
 *         in: query
 *         required: false
-*         description: Search books by keywords in the name or description
+*         description: Filter books by Publication year.
 *         type: integer
 *     responses:
 *       200:
-*         description: List of books filtered and/or searched
+*         description: List of books 
 *         schema:
 *           type: array
 *       422:
